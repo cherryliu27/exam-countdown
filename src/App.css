@@ -106,8 +106,10 @@
 }
  */
 
+/* *** --- HEADER --- *** */
+
 .header {
-  height: 90vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,8 +153,10 @@
 .countdown-number {
   font-family: "Abhaya Libre", serif;
   font-weight: 600;
-  font-size: 11rem;
-  -webkit-text-stroke: 4px #000;
+  font-size: 13rem;
+  -webkit-text-stroke: 6px #000;
+  /* position: static; */
+  margin-top: -20px;
   /* border: 1px solid orange; */
   /* display: flex;
   justify-content: center;
@@ -164,8 +168,9 @@
   font-style: italic;
   text-align: center;
   font-size: 1.5rem;
-  position: relative;
-  top: -20px;
+  margin-top: -30px;
+  /* transform: translateY(-40px); */
+  /* top: -40px; */
 }
 
 .background-wrapper {
@@ -189,7 +194,7 @@
 .bg-stickies {
   top: 0;
   left: 0;
-  width: 40vw;
+  width: 35vw;
   top: -50px;
   /* width: 180px; */
   max-width: 345px;
@@ -208,4 +213,68 @@
   left: 0;
   width: 28vw;
   max-width: 215px;
+}
+
+@media screen and (min-width: 700px) {
+  .title-name {
+    font-size: 3rem;
+  }
+
+  .title-text {
+    font-size: 3.64rem;
+  }
+
+  .countdown-number {
+    font-size: 16rem;
+    border: 1px solid orange;
+    margin-top: -40px;
+  }
+
+  .countdown-text {
+    margin-top: -40px;
+    font-size: 1.82rem;
+  }
+  .bg-clock {
+    bottom: -300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-text {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid purple;
+    text-align: right;
+  }
+
+  .title-name {
+    font-size: 4.3rem;
+  }
+
+  .title-text {
+    font-size: 5.3rem;
+  }
+  .countdown-number {
+    margin-top: 0;
+    font-size: 23rem;
+    margin-left: 2.5rem;
+  }
+
+  .countdown-text {
+    text-align: right;
+    font-size: 3.125rem;
+    margin-top: -60px;
+    margin-right: 0.5rem;
+  }
+
+  .bg-clock {
+    bottom: -400px;
+    left: 0;
+  }
 }
