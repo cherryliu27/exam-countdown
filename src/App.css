@@ -107,10 +107,11 @@
  */
 
 .header {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid red;
 }
 
 .background-wrapper {
@@ -124,4 +125,81 @@
 
 .background-wrapper img {
   position: absolute;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  border: 1px solid purple;
+}
+
+.title-text {
+  font-size: 2.5rem;
+}
+
+.countdown-number {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 600;
+  font-size: 9rem;
+  -webkit-text-stroke: 4px #000;
+  border: 1px solid orange;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.countdown-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  top: -20px;
+}
+
+.background-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.background-wrapper img {
+  position: absolute;
+}
+
+.bg-pills {
+  top: 0;
+  right: 0;
+  width: 40vw;
+  max-width: 350px;
+  /* width: 170px; */
+}
+
+.bg-stickies {
+  top: 0;
+  left: 0;
+  width: 38vw;
+  top: -50px;
+  /* width: 180px; */
+  max-width: 345px;
+}
+
+.bg-pills-bottle {
+  bottom: 180px;
+  right: 0;
+  max-width: 185px;
+  width: 25vw;
+}
+
+.bg-clock {
+  bottom: -50px;
+  left: 0;
+  width: 28vw;
+  max-width: 215px;
 }
