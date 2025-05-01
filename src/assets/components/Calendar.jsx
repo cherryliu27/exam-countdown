@@ -9,7 +9,9 @@ export default function Calendar() {
           Unlock a surprise each day to boost your mood, energy and motivation!
         </p>
         <div className="cards-container">
-          <div className="card-starter">Ready for your Exam Boosters? 💪🏻</div>
+          <div className="card-starter">
+            Ready for your <span>Exam Boosters? 💪🏻</span>
+          </div>
           <div className="card">
             <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
             {/* <p className="card-msg">

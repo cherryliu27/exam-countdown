@@ -255,21 +255,24 @@ main {
   text-transform: uppercase;
   font-weight: 700;
   margin: auto;
-  padding: 1.56rem 5rem;
+  padding: 1.56rem 0;
+  width: 100%;
   border-radius: 1.25rem;
   background-color: #000;
   color: #fff;
   margin-top: 2.19rem;
   /* margin-bottom: 1.625rem; */
   max-width: 395px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
   /* width: 140px;
   height: 140px; */
   /* width: 45%; */
-  width: 160px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
   aspect-ratio: 1/1;
   background-color: #e8e8e8e8;
   border-radius: 1.43rem;
@@ -279,6 +282,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card img {
+  width: 120px;
+  height: auto;
 }
 
 .card-msg {
