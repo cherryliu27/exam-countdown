@@ -40,6 +40,38 @@ export default function Calendar() {
             <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
             <p className="card-date dark">13/5</p>
           </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
+          <div className="card">
+            <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
+            <p className="card-date dark">13/5</p>
+          </div>
         </div>
       </div>
     </main>

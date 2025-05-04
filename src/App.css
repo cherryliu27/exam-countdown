@@ -218,7 +218,8 @@
 
 /* *** --- CALENDAR COUNTDOWN --- *** */
 
-main {
+main,
+.notes {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -327,6 +328,59 @@ main {
   font-weight: 700;
 }
 
+/* *** --- NOTES SECTION --- *** */
+
+.notes {
+  position: relative;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 230px;
+}
+
+.notes.background-wrapper {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-pills2 {
+  position: absolute;
+  width: 25vw;
+  left: 0;
+  top: -10px;
+}
+
+.bg-stationary {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 21vw;
+}
+
+.notes {
+  margin-top: 1.125rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.notes-container {
+  max-width: 220px;
+}
+
+.notes-main-text {
+  font-weight: 600;
+}
+
+.notes-add-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.69rem;
+}
+
 @media screen and (min-width: 688px) {
   .title-name {
     font-size: 3rem;
@@ -352,7 +406,7 @@ main {
 
   .calendar-container {
     text-align: center;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
   }
 
   /* .calendar-container h2 {
@@ -365,7 +419,7 @@ main {
 
   .card-starter {
     height: 130px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0;
     max-width: 282.4px;
   }
@@ -376,6 +430,24 @@ main {
 
   .cards-container {
     margin-top: 1.9rem;
+  }
+
+  /* FOOTER NOTES */
+  .notes-container {
+    max-width: 460px;
+    /* border: 1px solid yellow; */
+  }
+
+  .bg-pills2 {
+    width: 20vw;
+    max-width: 200px;
+    top: -130px;
+  }
+
+  .bg-stationary {
+    width: 18vw;
+    max-width: 180px;
+    top: -130px;
   }
 }
 
@@ -431,5 +503,16 @@ main {
 
   .calendar-container h2 {
     flex-direction: row;
+  }
+
+  /* FOOTER NOTES */
+  .bg-stationary {
+    top: -600px;
+    max-width: 240px;
+  }
+
+  .bg-pills2 {
+    top: -220px;
+    max-width: 200px;
   }
 }
