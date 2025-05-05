@@ -10,7 +10,9 @@ export default function Notes() {
         />
       </div>
       <div className="notes-container">
-        <p className="notes-main-text">Remember to rest and stay hydrated 🌿</p>
+        <p className="notes-main-text">
+          Remember to rested and stay hydrated 😌
+        </p>
         <p className="notes-add-text">
           Prepared by your girlfriend. <span>You're welcome 💋</span>
         </p>

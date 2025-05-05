@@ -1,4 +1,16 @@
 export default function Header() {
+  const today = new Date();
+
+  let daysLeft = 0;
+
+  if (today.getFullYear() === 2025 && today.getMonth() === 4) {
+    if (today.getDate() < 23) {
+      daysLeft = 23 - today.getDate();
+    } else if (today.getDate() < 25) {
+      daysLeft = 25 - today.getDate();
+    }
+  }
+
   return (
     <header className="header">
       <div className="background-wrapper">
@@ -22,7 +34,7 @@ export default function Header() {
             <span className="title-text">Exam</span>
             <span className="title-text">Countdown</span>
           </h1>
-          <p className="countdown-number">30</p>
+          <p className="countdown-number">{daysLeft}</p>
         </div>
         <p className="countdown-text">days to go...</p>
       </div>

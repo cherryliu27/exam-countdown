@@ -162,6 +162,27 @@
   /* display: flex;
   justify-content: center;
   align-items: center; */
+  animation: bounce 2.3s ease-in-out infinite both;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    /* color: rgb(191, 20, 28);
+    -webkit-text-stroke: 6px rgb(191, 20, 28); */
+  }
+  50% {
+    transform: translateY(22px);
+    color: rgb(191, 20, 28);
+    /* color: coral; */
+    /* -webkit-text-stroke: 6px coral; */
+    -webkit-text-stroke: 6px rgb(191, 20, 28);
+  }
+  100% {
+    transform: translateY(0);
+    /* color: rgb(191, 20, 28);
+    -webkit-text-stroke: 6px rgb(191, 20, 28); */
+  }
 }
 
 .countdown-text {
@@ -169,7 +190,7 @@
   font-style: italic;
   text-align: center;
   font-size: 1.5rem;
-  margin-top: -30px;
+  margin-top: -20px;
   /* transform: translateY(-40px); */
   /* top: -40px; */
 }
