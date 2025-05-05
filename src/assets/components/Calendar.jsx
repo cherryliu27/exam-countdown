@@ -52,7 +52,7 @@ export default function Calendar() {
             <p>{prize.message}</p>
           </div>
         </div>
-        <p className="card-date">
+        <p className={`card-date ${isLocked ? "dark" : ""}`}>
           {prize.date.getDate()}/{prize.date.getMonth() + 1}
         </p>
       </div>

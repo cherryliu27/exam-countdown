@@ -368,6 +368,13 @@ main,
   z-index: 4;
 }
 
+.card-date.dark {
+  background-color: #484848;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border: 2px solid #fff;
+}
 /* *** --- NOTES SECTION --- *** */
 
 .notes {
