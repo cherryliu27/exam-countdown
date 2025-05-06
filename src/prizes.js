@@ -8,7 +8,7 @@ const prizes = [
     includesModal: true,
     modalMessage:
       "Hi Sunshine! 🌞 I know this month's gonna be tough for you, so for the next 19 days, open a box each day and redeem a little surprise :) 🎁 I hope it gives you something to look forward to each day, motivates you and makes you smile every morning before you go study. No cheating! Each box unlocks on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, late-night meal you have in mind? Up to you if you wanna come back before or after dinner.  Just let me know! 💸🍜🍟",
-    // modalImage: "/images/giftest.GIF",
+    modalImage: "/images/kermit.gif",
     // modalImage: ["/images/me2.jpg", "/images/me1.jpg"],
     // modalImage: "images/me1.jpg",
     // modalVideo: "/images/test2.MP4",
@@ -19,14 +19,22 @@ const prizes = [
     img: "/images/cookie.png",
     isFlipped: false,
     date: new Date(2024, 4, 7),
-    message: "hello world",
+    message: "HOME COOKED MEAL! Please welcome Chef Cherry 👩🏻‍🍳",
+    includesModal: true,
+    modalMessage:
+      "Home-cooked meal from me! Hope it tastes okay LOL. Hey, it’s the effort and intention that counts, right? (Plus me panicking and hoping I don’t accidentally food poison you or something 😌) Enjoy!",
+    modalImage: "/images/elmo-on-fire.gif",
   },
   {
     id: 3,
     img: "/images/dark-chocolate.png",
     isFlipped: false,
     date: new Date(2024, 4, 8),
-    message: "hello world",
+    message: "Ding Dong! Breakfast is Here! 🥐",
+    includesModal: true,
+    modalMessage:
+      "Picked up some pastries for you from Bread and Butter Bakehouse. Didn't see that coming, did you 😎 ",
+    modalImage: "/images/sassycat.jpg",
   },
   {
     id: 4,
