@@ -2,18 +2,11 @@ import Prizes from "../../prizes.js";
 import { useState } from "react";
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
-
-// /* <div className="card locked">
-// <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
-// <p className="card-date dark">13/5</p>
-// </div> */
-// {/* <p className="card-msg">
-//   You claim a free selfie! Text #IWANTSELFIE to get a cute selfie
-//   from me right now hihi test test
-// </p> */}
+import { useState, useRef, useEffect } from "react";
 
 export default function Calendar() {
   // const { width, height } = useWindowSize();
+  const modalRef = useRef(null);
   const [prizes, setPrizes] = useState(Prizes);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({
@@ -24,15 +17,11 @@ export default function Calendar() {
     modalAudio: "",
   });
 
-  //   function flipCard(id) {
-  //     setPrizes((prev) =>
-  //       prev.map((prize) => (
-  //         prize.id === id
-  //           ? { ...prev, isFlipped: !prize.isFlipped }
-  //           : { ...prev };
-  //       ))
-  //     );
-  //   }
+  useEffect(() => {
+    if (isModalOpen && modalRef.current) {
+      modalRef.current.scrollTop = 0;
+    }
+  }, [isModalOpen]);
 
   function flipCard(id) {
     const clickedPrize = prizes.find((prize) => prize.id === id);
@@ -56,8 +45,6 @@ export default function Calendar() {
         prize.id === id ? { ...prize, isFlipped: !prize.isFlipped } : prize
       )
     );
-
-    // console.log(prizes.find((prize) => prize.id === id).length);
   }
 
   function closeModal() {
@@ -116,6 +103,7 @@ export default function Calendar() {
               ✕
             </button>
             <div
+              ref={modalRef}
               className={`modal-content ${
                 modalContent.modalImage || modalContent.modalVideo
                   ? "has-image"
