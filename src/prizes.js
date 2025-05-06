@@ -150,14 +150,14 @@ const prizes = [
   // },
   {
     id: 19,
-    img: "/images/butterfly.png",
+    img: "/images/nic-exam1.png",
     isFlipped: false,
     date: new Date(2024, 4, 23),
     message: "hello world",
   },
   {
     id: 20,
-    img: "/images/nic-exam1.png",
+    img: "/images/butterfly.png",
     isFlipped: false,
     date: new Date(2024, 4, 24),
     message: "hello world",
