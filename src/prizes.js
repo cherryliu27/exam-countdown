@@ -7,9 +7,10 @@ const prizes = [
     message: "Dinner/late-night snack’s on me babe! Pick Anything 💁🏻‍♀️",
     includesModal: true,
     modalMessage:
-      "Hi Sunshine! 🌞 I know this month's going to be tough for you and I have been working on this little surprise for a while now. 🎈For the next 17 days, open one box a day and redeem a little surprise from me :) 🎁 I hope it gives you something to look forward to each day, motivates you and make you smile every morning before you go study. No cheating! Each box automatically unlocks on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, delivery, late-night meal you have in mind? It's up to you if you wanna come back before or after dinner.  Just let me know when you’re home 💸🍜🍟",
+      "Hi Sunshine! 🌞 I know this month's gonna be tough for you, so for the next 17 days, open a box each day and redeem a little surprise :) 🎈🎁 I hope it gives you something to look forward to each day, motivates you and makes you smile every morning before you go study. No cheating! Each box unlocks on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, late-night meal you have in mind? Up to you if you wanna come back before or after dinner.  Just let me know! 💸🍟",
     // modalImage: "/images/giftest.GIF",
     // modalImage: ["/images/me2.jpg", "/images/me1.jpg"],
+    // modalImage: "images/me1.jpg",
     // modalVideo: "/images/test2.MP4",
     // modalAudio: "/images/audio3.m4a",
   },

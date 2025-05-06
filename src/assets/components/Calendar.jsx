@@ -2,11 +2,11 @@ import Prizes from "../../prizes.js";
 import { useState } from "react";
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
-import { useRef, useEffect } from "react";
+// import { useRef, useEffect } from "react";
 
 export default function Calendar() {
   // const { width, height } = useWindowSize();
-  const modalRef = useRef(null);
+  // const modalRef = useRef(null);
   const [prizes, setPrizes] = useState(Prizes);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({
@@ -17,11 +17,11 @@ export default function Calendar() {
     modalAudio: "",
   });
 
-  useEffect(() => {
-    if (isModalOpen && modalRef.current) {
-      modalRef.current.scrollTop = 0;
-    }
-  }, [isModalOpen]);
+  // useEffect(() => {
+  //   if (isModalOpen && modalRef.current) {
+  //     modalRef.current.scrollTop = 0;
+  //   }
+  // }, [isModalOpen]);
 
   function flipCard(id) {
     const clickedPrize = prizes.find((prize) => prize.id === id);
@@ -103,7 +103,7 @@ export default function Calendar() {
               ✕
             </button>
             <div
-              ref={modalRef}
+              // ref={modalRef}
               className={`modal-content ${
                 modalContent.modalImage || modalContent.modalVideo
                   ? "has-image"
