@@ -1,5 +1,7 @@
 import Prizes from "../../prizes.js";
 import { useState } from "react";
+import { useWindowSize } from "react-use";
+import Confetti from "react-confetti";
 
 // /* <div className="card locked">
 // <img src="/images/matcha-cookie.png" alt="matcha-cookie" />
@@ -11,9 +13,11 @@ import { useState } from "react";
 // </p> */}
 
 export default function Calendar() {
+  // const { width, height } = useWindowSize();
   const [prizes, setPrizes] = useState(Prizes);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({
+    message: "",
     modalMessage: "",
     modalImage: "",
     modalVideo: "",
@@ -35,7 +39,10 @@ export default function Calendar() {
     if (!clickedPrize.isFlipped && clickedPrize.includesModal) {
       setTimeout(() => {
         setModalContent({
-          modalMessage: clickedPrize.modalMessage,
+          message: clickedPrize.message,
+          modalMessage: clickedPrize.modalMessage
+            ? clickedPrize.modalMessage
+            : null,
           modalImage: clickedPrize.modalImage ? clickedPrize.modalImage : null,
           modalVideo: clickedPrize.modalVideo ? clickedPrize.modalVideo : null,
           modalAudio: clickedPrize.modalAudio ? clickedPrize.modalAudio : null,
@@ -85,10 +92,9 @@ export default function Calendar() {
     );
   });
 
-  console.log(prizeElement);
-
   return (
     <main>
+      {/* <Confetti width={width} height={height} /> */}
       <div className="calendar-container">
         <h2>
           Calendar <span>Countdown</span>
@@ -116,7 +122,12 @@ export default function Calendar() {
                   : "no-image"
               }`}
             >
-              <p>{modalContent.modalMessage}</p>
+              <p className="modal-title">{modalContent.message}</p>
+              {
+                <p className="modal-message">
+                  {modalContent.modalMessage ? modalContent.modalMessage : null}
+                </p>
+              }
               {Array.isArray(modalContent.modalImage) ? (
                 modalContent.modalImage.map((image) => (
                   <img src={image} alt="" />

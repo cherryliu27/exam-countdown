@@ -313,6 +313,11 @@ main,
   transform: rotateY(180deg);
 }
 
+.card-back p {
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
+
 .flipped {
   transform: rotateY(180deg);
 }
@@ -465,11 +470,19 @@ main,
   text-align: center;
 }
 
-.modal-content p {
+.modal-content .modal-message {
   text-align: center;
   margin-bottom: 0.8rem;
+  font-weight: 400;
+  margin-top: 0.3rem;
+  line-height: 1.5rem;
+}
+
+.modal-content .modal-title {
   font-weight: 600;
-  margin-top: 0.2rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .modal-content img {
@@ -478,6 +491,7 @@ main,
   margin-bottom: 0.6rem;
   border-radius: 10px;
 }
+
 /* *** --- NOTES SECTION --- *** */
 
 .notes {
