@@ -8,8 +8,9 @@ const prizes = [
     includesModal: true,
     modalMessage: "Hihihihihi",
     // modalImage: "/images/giftest.GIF",
-    modalImage: ["/images/me2.jpg", "/images/me1.jpg"],
+    // modalImage: ["/images/me2.jpg", "/images/me1.jpg"],
     // modalVideo: "/images/test2.MP4",
+    modalAudio: "/images/audio.ogg",
   },
   {
     id: 2,

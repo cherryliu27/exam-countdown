@@ -12,10 +12,10 @@ import { useState } from "react";
 
 export default function Calendar() {
   const [prizes, setPrizes] = useState(Prizes);
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({
-    modalMessage: "Testing",
-    modalImage: "/images/matcha-latte.png",
+    modalMessage: "",
+    modalImage: "",
     modalVideo: "",
     modalAudio: "",
   });
@@ -38,6 +38,7 @@ export default function Calendar() {
           modalMessage: clickedPrize.modalMessage,
           modalImage: clickedPrize.modalImage ? clickedPrize.modalImage : null,
           modalVideo: clickedPrize.modalVideo ? clickedPrize.modalVideo : null,
+          modalAudio: clickedPrize.modalAudio ? clickedPrize.modalAudio : null,
         });
         setIsModalOpen(true);
       }, 2500);
@@ -110,9 +111,7 @@ export default function Calendar() {
             </button>
             <div
               className={`modal-content ${
-                modalContent.modalImage ||
-                modalContent.modalVideo ||
-                modalContent.modalAudio
+                modalContent.modalImage || modalContent.modalVideo
                   ? "has-image"
                   : "no-image"
               }`}
@@ -131,8 +130,8 @@ export default function Calendar() {
                 </video>
               ) : null}
               {modalContent.modalAudio ? (
-                <audio width="100%" controls>
-                  <source src={modalContent.modalVideo} type="audio/mpeg" />
+                <audio controls>
+                  <source src={modalContent.modalAudio} type="audio/ogg" />
                 </audio>
               ) : null}
             </div>
