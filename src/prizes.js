@@ -5,6 +5,8 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 5),
     message: "hello world",
+    includesModal: true,
+    modalMessage: "Hihihihihi",
   },
   {
     id: 2,

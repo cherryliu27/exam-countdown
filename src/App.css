@@ -162,24 +162,30 @@
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  animation: bounce 2.3s ease-in-out infinite both;
+  animation: bounce 2.1s ease-in-out infinite both;
 }
 
 @keyframes bounce {
   0% {
     transform: translateY(0);
-    /* color: rgb(191, 20, 28);
-    -webkit-text-stroke: 6px rgb(191, 20, 28); */
-  }
-  50% {
-    transform: translateY(22px);
     color: rgb(191, 20, 28);
     /* color: coral; */
     /* -webkit-text-stroke: 6px coral; */
     -webkit-text-stroke: 6px rgb(191, 20, 28);
+    /* color: rgb(191, 20, 28);
+    -webkit-text-stroke: 6px rgb(191, 20, 28); */
+  }
+  50% {
+    transform: translateY(20px);
+    color: black;
+    -webkit-text-stroke: 6px black;
   }
   100% {
     transform: translateY(0);
+    color: rgb(191, 20, 28);
+    /* color: coral; */
+    /* -webkit-text-stroke: 6px coral; */
+    -webkit-text-stroke: 6px rgb(191, 20, 28);
     /* color: rgb(191, 20, 28);
     -webkit-text-stroke: 6px rgb(191, 20, 28); */
   }
@@ -396,6 +402,46 @@ main,
   border: none;
   border: 2px solid #fff;
 }
+
+/* MODAL */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  width: 80%;
+  aspect-ratio: 1/1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.3rem;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  /* border: 1px solid green; */
+  padding: 5px;
+}
+
 /* *** --- NOTES SECTION --- *** */
 
 .notes {

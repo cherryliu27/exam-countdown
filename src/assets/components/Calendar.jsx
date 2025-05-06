@@ -12,6 +12,8 @@ import { useState } from "react";
 
 export default function Calendar() {
   const [prizes, setPrizes] = useState(Prizes);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState("");
 
   //   function flipCard(id) {
   //     setPrizes((prev) =>
@@ -24,11 +26,23 @@ export default function Calendar() {
   //   }
 
   function flipCard(id) {
+    const clickedPrize = prizes.find((prize) => prize.id === id);
+    if (!clickedPrize.isFlipped && clickedPrize.includesModal) {
+      setTimeout(() => {
+        setModalMessage(clickedPrize.modalMessage);
+        setIsModalOpen(true);
+      }, 2500);
+    }
+
     setPrizes((prev) =>
       prev.map((prize) =>
         prize.id === id ? { ...prize, isFlipped: !prize.isFlipped } : prize
       )
     );
+  }
+
+  function closeModal() {
+    setIsModalOpen((prev) => !prev);
   }
 
   const prizeElement = prizes.map((prize) => {
@@ -77,6 +91,16 @@ export default function Calendar() {
           {prizeElement}
         </div>
       </div>
+      {isModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal">
+            <button className="modal-close" onClick={closeModal}>
+              ✕
+            </button>
+            <p>{modalMessage}</p>
+          </div>
+        </div>
+      )}
     </main>
   );
 }

@@ -14,7 +14,7 @@ export default function Notes() {
           Remember to rested and stay hydrated 😌
         </p>
         <p className="notes-add-text">
-          Prepared by your girlfriend. <span>You're welcome 💋</span>
+          Prepared by your amazing girlfriend. <span>You're welcome 💋</span>
         </p>
       </div>
     </div>
