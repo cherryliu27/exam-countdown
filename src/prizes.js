@@ -7,7 +7,7 @@ const prizes = [
     message: "Dinner/late-night snack’s on me babe! Pick Anything 💁🏻‍♀️",
     includesModal: true,
     modalMessage:
-      "Hi Sunshine! 🌞 I know this month's gonna be tough for you, so for the next 19 days, open a box each day and redeem a little surprise :) 🎁 I hope it gives you something to look forward to each day, motivates you and makes you smile every morning before you go study. No cheating! Each box unlocks on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, late-night meal you have in mind? Up to you if you wanna come back before or after dinner.  Just let me know! 💸🍜🍟",
+      "Hi Sunshine! 🌞 I know this month's gonna be tough for you, so for the next 19 days, open a box each day and redeem a little surprise :) 🎁 I hope it gives you something to look forward to each day, motivates you and makes you smile every morning before you go study. No cheating! Each box unlocks automatically on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, late-night meal you have in mind? Up to you if you wanna come back before or after dinner.  Just let me know! 💸🍜🍟",
     modalImage: "/images/kermit.gif",
     // modalImage: ["/images/me2.jpg", "/images/me1.jpg"],
     // modalImage: "images/me1.jpg",
@@ -42,6 +42,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 9),
     message: "hello world",
+    includesModal: true,
   },
   {
     id: 5,

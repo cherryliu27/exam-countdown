@@ -499,6 +499,10 @@ main,
   border-radius: 10px;
 }
 
+.modal-content iframe {
+  width: 100%;
+  border: none;
+}
 /* *** --- NOTES SECTION --- *** */
 
 .notes {
