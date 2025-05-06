@@ -409,7 +409,7 @@ main,
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100dvh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 20;
   display: flex;
@@ -433,13 +433,14 @@ main,
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   border: none;
   font-weight: 600;
   background-color: transparent;
   cursor: pointer;
   /* border: 1px solid green; */
   padding: 5px;
+  color: #000;
 }
 
 /* *** --- NOTES SECTION --- *** */
