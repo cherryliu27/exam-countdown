@@ -16,6 +16,8 @@ export default function Calendar() {
   const [modalContent, setModalContent] = useState({
     modalMessage: "Testing",
     modalImage: "/images/matcha-latte.png",
+    modalVideo: "",
+    modalAudio: "",
   });
 
   //   function flipCard(id) {
@@ -35,6 +37,7 @@ export default function Calendar() {
         setModalContent({
           modalMessage: clickedPrize.modalMessage,
           modalImage: clickedPrize.modalImage ? clickedPrize.modalImage : null,
+          modalVideo: clickedPrize.modalVideo ? clickedPrize.modalVideo : null,
         });
         setIsModalOpen(true);
       }, 2500);
@@ -45,6 +48,8 @@ export default function Calendar() {
         prize.id === id ? { ...prize, isFlipped: !prize.isFlipped } : prize
       )
     );
+
+    // console.log(prizes.find((prize) => prize.id === id).length);
   }
 
   function closeModal() {
@@ -103,10 +108,27 @@ export default function Calendar() {
             <button className="modal-close" onClick={closeModal}>
               ✕
             </button>
-            <div className="modal-content">
+            <div
+              className={`modal-content ${
+                modalContent.modalImage ||
+                modalContent.modalVideo ||
+                modalContent.modalAudio
+                  ? "has-image"
+                  : "no-image"
+              }`}
+            >
               <p>{modalContent.modalMessage}</p>
-              {modalContent.modalImage ? (
-                <img src={modalContent.modalImage} alt="" />
+              {Array.isArray(modalContent.modalImage) ? (
+                modalContent.modalImage.map((image) => (
+                  <img src={image} alt="" />
+                ))
+              ) : modalContent.modalImage ? (
+                <img src={modalContent.modalImage} />
+              ) : null}
+              {modalContent.modalVideo ? (
+                <video width="100%" controls>
+                  <source src={modalContent.modalVideo} type="video/mp4" />
+                </video>
               ) : null}
             </div>
           </div>

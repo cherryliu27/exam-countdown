@@ -419,8 +419,8 @@ main,
 
 .modal {
   position: fixed;
-  width: 80%;
-  aspect-ratio: 1/1;
+  width: 90%;
+  aspect-ratio: 1/1.1;
   max-width: 500px;
   display: flex;
   justify-content: center;
@@ -448,16 +448,35 @@ main,
   width: 95%;
   height: 95%;
   padding: 20px;
-  overflow: scroll;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content.no-image {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-content.has-image {
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
 }
 
 .modal-content p {
   text-align: center;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
 }
 
 .modal-content img {
   width: 100%;
+  height: auto;
+  margin-bottom: 0.6rem;
+  border-radius: 10px;
 }
 /* *** --- NOTES SECTION --- *** */
 
