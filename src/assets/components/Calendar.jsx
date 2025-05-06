@@ -12,8 +12,11 @@ import { useState } from "react";
 
 export default function Calendar() {
   const [prizes, setPrizes] = useState(Prizes);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalMessage, setModalMessage] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [modalContent, setModalContent] = useState({
+    modalMessage: "Testing",
+    modalImage: "/images/matcha-latte.png",
+  });
 
   //   function flipCard(id) {
   //     setPrizes((prev) =>
@@ -29,7 +32,10 @@ export default function Calendar() {
     const clickedPrize = prizes.find((prize) => prize.id === id);
     if (!clickedPrize.isFlipped && clickedPrize.includesModal) {
       setTimeout(() => {
-        setModalMessage(clickedPrize.modalMessage);
+        setModalContent({
+          modalMessage: clickedPrize.modalMessage,
+          modalImage: clickedPrize.modalImage ? clickedPrize.modalImage : null,
+        });
         setIsModalOpen(true);
       }, 2500);
     }
@@ -97,7 +103,12 @@ export default function Calendar() {
             <button className="modal-close" onClick={closeModal}>
               ✕
             </button>
-            <p>{modalMessage}</p>
+            <div className="modal-content">
+              <p>{modalContent.modalMessage}</p>
+              {modalContent.modalImage ? (
+                <img src={modalContent.modalImage} alt="" />
+              ) : null}
+            </div>
           </div>
         </div>
       )}

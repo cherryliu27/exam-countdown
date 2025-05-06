@@ -443,6 +443,22 @@ main,
   color: #000;
 }
 
+.modal-content {
+  /* border: 1px solid red; */
+  width: 95%;
+  height: 95%;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.modal-content p {
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.modal-content img {
+  width: 100%;
+}
 /* *** --- NOTES SECTION --- *** */
 
 .notes {
@@ -545,6 +561,8 @@ main,
 
   .cards-container {
     margin-top: 1.9rem;
+    display: flex;
+    justify-content: center;
   }
 
   /* FOOTER NOTES */
@@ -628,7 +646,7 @@ main,
   }
 
   .bg-pills2 {
-    top: -300px;
+    top: -450px;
     max-width: 230px;
     left: 0;
   }
