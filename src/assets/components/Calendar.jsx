@@ -130,7 +130,9 @@ export default function Calendar() {
                 </video>
               ) : null}
               {modalContent.modalAudio ? (
-                <audio controls src={modalContent.modalAudio} />
+                <audio controls>
+                  <source src={modalContent.modalAudio} type="audio/mpeg" />
+                </audio>
               ) : null}
             </div>
           </div>
