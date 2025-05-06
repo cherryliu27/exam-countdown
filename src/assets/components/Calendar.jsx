@@ -126,9 +126,14 @@ export default function Calendar() {
                 <img src={modalContent.modalImage} />
               ) : null}
               {modalContent.modalVideo ? (
-                <video width="100%" controls>
+                <video width="100%" controls playsInline>
                   <source src={modalContent.modalVideo} type="video/mp4" />
                 </video>
+              ) : null}
+              {modalContent.modalAudio ? (
+                <audio width="100%" controls>
+                  <source src={modalContent.modalVideo} type="audio/mpeg" />
+                </audio>
               ) : null}
             </div>
           </div>
