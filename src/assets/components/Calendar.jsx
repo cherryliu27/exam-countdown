@@ -2,7 +2,7 @@ import Prizes from "../../prizes.js";
 import { useState } from "react";
 import { useWindowSize } from "react-use";
 import Confetti from "react-confetti";
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 export default function Calendar() {
   // const { width, height } = useWindowSize();

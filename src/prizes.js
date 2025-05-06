@@ -156,7 +156,7 @@ const prizes = [
   },
   {
     id: 20,
-    img: "",
+    img: "/images/nic-exam1.png",
     isFlipped: false,
     date: new Date(2024, 4, 24),
     message: "hello world",
@@ -170,7 +170,7 @@ const prizes = [
   },
   {
     id: 22,
-    img: "",
+    img: "/images/nic-exam2.png",
     isFlipped: false,
     date: new Date(2024, 4, 25),
     message: "hello world",
