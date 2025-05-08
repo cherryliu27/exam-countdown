@@ -33,7 +33,7 @@ const prizes = [
     message: "Ding Dong! Breakfast is Here! 🥐",
     includesModal: true,
     modalMessage:
-      "Picked up some pastries for you from Bread and Butter Bakehouse. Didn't see that coming, did you 😎 ",
+      "Snuck out and picked up some pastries for you from Brick and Butter Bakehouse this morning. Guess which ones I got. ",
     modalImage: "/images/sassycat.jpg",
   },
   {
