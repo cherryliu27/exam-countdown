@@ -30,7 +30,7 @@ const prizes = [
     img: "/images/dark-chocolate.png",
     isFlipped: false,
     date: new Date(2024, 4, 8),
-    message: "Ding Dong! Breakfast is Here! 🥐",
+    message: "Surprise! Breakfast is Here! 🥐",
     includesModal: true,
     modalMessage:
       "Snuck out and picked up some pastries for you from Brick and Butter Bakehouse this morning. Guess which ones I got. ",
