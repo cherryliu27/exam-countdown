@@ -307,6 +307,7 @@ main,
   align-items: center;
   position: absolute;
   backface-visibility: hidden;
+  padding: 2.5px;
 }
 
 .card-back {
@@ -316,6 +317,8 @@ main,
 .card-back p {
   padding: 0.3rem;
   font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.25rem;
 }
 
 .flipped {

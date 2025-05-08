@@ -4,7 +4,7 @@ const prizes = [
     img: "/images/matcha-cookie.png",
     isFlipped: false,
     date: new Date(2024, 4, 6),
-    message: "Dinner/late-night snack’s on me babe! Pick Anything 💁🏻‍♀️",
+    message: "Dinner/late-night snack’s on me babe! Pick anything 💁🏻‍♀️",
     includesModal: true,
     modalMessage:
       "Hi Sunshine! 🌞 I know this month's gonna be tough for you, so for the next 19 days, open a box each day and redeem a little surprise from me :) 🎁 I hope it gives you something to look forward to each day, motivates you and makes you smile every morning before you go study. No cheating! Each box unlocks automatically on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, late-night meal you have in mind? Up to you if you wanna come back before or after dinner.  Just let me know! 💸🍜🍟",
