@@ -16,6 +16,7 @@ export default function Calendar() {
     modalVideo: "",
     modalAudio: "",
     modalIframe: "",
+    outcomeImage: "",
   });
 
   // useEffect(() => {
@@ -39,6 +40,10 @@ export default function Calendar() {
           modalIframe: clickedPrize.modalIframe
             ? clickedPrize.modalIframe
             : null,
+          outcomeImage:
+            clickedPrize.signedOff && clickedPrize.outcomeImage
+              ? clickedPrize.outcomeImage
+              : null,
         });
         setIsModalOpen(true);
       }, 2500);
@@ -142,6 +147,12 @@ export default function Calendar() {
                   className="modal-iframe"
                   dangerouslySetInnerHTML={{ __html: modalContent.modalIframe }}
                 />
+              ) : null}
+              {modalContent.outcomeImage ? (
+                <>
+                  <p className="modal-title">RECEIPT</p>
+                  <img src={modalContent.outcomeImage} alt="" />
+                </>
               ) : null}
             </div>
           </div>

@@ -9,10 +9,12 @@ const prizes = [
     modalMessage:
       "Hi Sunshine! 🌞 I know this month's gonna be tough for you, so for the next 19 days, open a box each day and redeem a little surprise from me :) 🎁 I hope it gives you something to look forward to each day, motivates you and makes you smile every morning before you go study. No cheating! Each box unlocks automatically on its set day only ❗ As for today's treat: your sugar mommy is covering dinner. Any takeout, late-night meal you have in mind? Up to you if you wanna come back before or after dinner.  Just let me know! 💸🍜🍟",
     modalImage: "/images/kermit.gif",
+    signedOff: true,
     // modalImage: ["/images/me2.jpg", "/images/me1.jpg"],
     // modalImage: "images/me1.jpg",
     // modalVideo: "/images/test2.MP4",
     // modalAudio: "/images/audio3.m4a",
+    outcomeImage: "/images/may6.jpg",
   },
   {
     id: 2,
@@ -24,6 +26,8 @@ const prizes = [
     modalMessage:
       "Home-cooked meal from me! Hope it tastes okay LOL. Hey, it’s the effort and intention that counts, right? (Plus me panicking and hoping I don’t accidentally food poison you or something 😌) Enjoy!",
     modalImage: "/images/elmo-on-fire.gif",
+    signedOff: true,
+    outcomeImage: "/images/may7.jpg",
   },
   {
     id: 3,
@@ -35,6 +39,8 @@ const prizes = [
     modalMessage:
       "Snuck out and picked up some pastries for you from Brick and Butter Bakehouse this morning. Guess which ones I got. ",
     modalImage: "/images/sassycat.jpg",
+    signedOff: true,
+    outcomeImage: "/images/may8.jpg",
   },
   {
     id: 4,
@@ -46,6 +52,7 @@ const prizes = [
       "Made you a playlist with chill study music! Hope it helps you focus today! I also sprinkled in some Canto and Taiwanese tracks as well. Good luck~",
     includesModal: true,
     modalIframe: `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Jj1w1DL15clDpmDZskfcX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
+    signedOff: false,
   },
   {
     id: 5,
@@ -57,6 +64,7 @@ const prizes = [
     modalMessage:
       "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me a selfie! Open this on your computer and take a pic with it using your phone. (The mission is not compulsory, but you get 10 extra kisses tonight if you do 😘)",
     modalImage: "/images/sassycat.jpg",
+    signedOff: false,
   },
   {
     id: 6,
@@ -64,6 +72,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 11),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 7,
@@ -71,6 +80,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 12),
     message: "hello world",
+    signedOff: false,
   },
   // {
   //   id: 6,
@@ -85,6 +95,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 13),
     message: "hello world",
+    signedOff: false,
   },
 
   {
@@ -93,6 +104,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 14),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 10,
@@ -100,6 +112,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 15),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 11,
@@ -107,6 +120,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 16),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 12,
@@ -114,6 +128,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 17),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 13,
@@ -121,6 +136,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 18),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 14,
@@ -128,6 +144,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 19),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 15,
@@ -135,6 +152,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 20),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 16,
@@ -142,6 +160,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 21),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 17,
@@ -149,6 +168,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 22),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 18,
@@ -156,6 +176,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 23),
     message: "hello world",
+    signedOff: false,
   },
   // {
   //   id: 17,
@@ -170,6 +191,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 23),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 20,
@@ -177,6 +199,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 24),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 21,
@@ -184,6 +207,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 25),
     message: "hello world",
+    signedOff: false,
   },
   {
     id: 22,
@@ -191,6 +215,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 25),
     message: "hello world",
+    signedOff: false,
   },
 ];
 
