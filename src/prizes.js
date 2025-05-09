@@ -49,7 +49,7 @@ const prizes = [
     date: new Date(2024, 4, 9),
     message: "You get a custom playlist for studying! 📚",
     modalMessage:
-      "Made you a playlist with chill study music, hope it helps you focus! I also threw in some Canto and Taiwanese tracks as well. Good luck today!",
+      "Made you a playlist with chill study music, hope it helps you focus! I also threw in some Canto, Taiwanese and Japanese tracks as well. Good luck today!",
     includesModal: true,
     modalIframe: `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Jj1w1DL15clDpmDZskfcX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     signedOff: false,
