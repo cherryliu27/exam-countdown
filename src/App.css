@@ -506,6 +506,10 @@ main,
   width: 100%;
   border: none;
 }
+
+.modal-iframe {
+  width: 100%;
+}
 /* *** --- NOTES SECTION --- *** */
 
 .notes {

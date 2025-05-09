@@ -139,7 +139,7 @@ export default function Calendar() {
               ) : null}
               {modalContent.modalIframe ? (
                 <div
-                  width="100%"
+                  className="modal-iframe"
                   dangerouslySetInnerHTML={{ __html: modalContent.modalIframe }}
                 />
               ) : null}

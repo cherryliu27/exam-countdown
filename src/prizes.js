@@ -41,15 +41,22 @@ const prizes = [
     img: "/images/matcha-latte.png",
     isFlipped: false,
     date: new Date(2024, 4, 9),
-    message: "hello world",
+    message: "A custom playlist for studying 📚",
+    modalMessage:
+      "Made you a playlist with chill study music! Hope it helps you focus today! I also sprinkled in some Canto and Taiwanese tracks as well. Good luck~",
     includesModal: true,
+    modalIframe: `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Jj1w1DL15clDpmDZskfcX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
   },
   {
     id: 5,
     img: "/images/latte.png",
     isFlipped: false,
     date: new Date(2024, 4, 10),
-    message: "hello world",
+    message: "Selfie Drop 📸 You got a mission too! ",
+    includesModal: true,
+    modalMessage:
+      "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me a selfie! Open this on your computer and take a pic with it using your phone. (The mission is not compulsory, but you get 10 extra kisses tonight if you do 😘)",
+    modalImage: "/images/sassycat.jpg",
   },
   {
     id: 6,
