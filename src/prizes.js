@@ -71,7 +71,11 @@ const prizes = [
     img: "/images/french-vanilla.png",
     isFlipped: false,
     date: new Date(2024, 4, 11),
-    message: "hello world",
+    message: "Selfie Drop 📸 You got a mission too! ",
+    includesModal: true,
+    modalMessage:
+      "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me a selfie! Open this on your computer and take a pic with it using your phone. (The mission is not compulsory, but you get 10 extra kisses tonight if you do 😘)",
+    modalImage: "/images/sassycat.jpg",
     signedOff: false,
   },
   {

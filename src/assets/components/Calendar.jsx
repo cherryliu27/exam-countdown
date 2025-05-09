@@ -114,7 +114,9 @@ export default function Calendar() {
             <div
               // ref={modalRef}
               className={`modal-content ${
-                modalContent.modalImage || modalContent.modalVideo
+                modalContent.modalImage ||
+                modalContent.modalVideo ||
+                modalContent.modalIframe
                   ? "has-image"
                   : "no-image"
               }`}
