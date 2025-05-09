@@ -46,7 +46,7 @@ export default function Calendar() {
               : null,
         });
         setIsModalOpen(true);
-      }, 2500);
+      }, 2000);
     }
 
     setPrizes((prev) =>
