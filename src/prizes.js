@@ -47,9 +47,9 @@ const prizes = [
     img: "/images/matcha-latte.png",
     isFlipped: false,
     date: new Date(2024, 4, 9),
-    message: "A custom playlist for studying 📚",
+    message: "Custom playlist for studying! 📚",
     modalMessage:
-      "Made you a playlist with chill study music! Hope it helps you focus today! I also sprinkled in some Canto and Taiwanese tracks as well. Good luck~",
+      "Made you a playlist with chill study music! Hope it helps you focus! I also sprinkled in some Canto and Taiwanese tracks as well. Good luck~",
     includesModal: true,
     modalIframe: `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Jj1w1DL15clDpmDZskfcX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     signedOff: false,
