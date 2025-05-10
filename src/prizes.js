@@ -62,7 +62,7 @@ const prizes = [
     message: "The rizz you didn't ask for. Play the audio 🔊",
     includesModal: true,
     modalMessage: "Aura +1000000 🔥. Just hit play",
-    modalImage: "/images/shrek-smirk.gif",
+    modalImage: "/images/cat-smirk.gif",
     signedOff: false,
     modalAudio: "/images/may10audio.m4a",
   },
