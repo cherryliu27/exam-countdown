@@ -58,7 +58,7 @@ const prizes = [
     id: 5,
     img: "/images/latte.png",
     isFlipped: false,
-    date: new Date(2024, 4, 9),
+    date: new Date(2024, 4, 10),
     message: "The rizz you didn't ask for - Play the audio 🔊",
     includesModal: true,
     modalMessage: "Aura +1000000. 🔥 Just hit play",
@@ -70,7 +70,7 @@ const prizes = [
     id: 6,
     img: "/images/french-vanilla.png",
     isFlipped: false,
-    date: new Date(2024, 4, 9),
+    date: new Date(2024, 4, 11),
     message: "Selfie Drop 📸 You got a mission! ",
     includesModal: true,
     modalMessage:
