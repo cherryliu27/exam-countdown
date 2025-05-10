@@ -513,9 +513,16 @@ main,
   border-radius: 10px;
 }
 
-.modal-content iframe {
+.modal-content iframe,
+.modal-content audio {
   width: 100%;
   border: none;
+}
+
+.modal-content audio {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  /* background-color: lightgrey; */
 }
 
 .modal-iframe {

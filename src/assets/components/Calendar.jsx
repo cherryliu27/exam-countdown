@@ -127,6 +127,11 @@ export default function Calendar() {
                   {modalContent.modalMessage ? modalContent.modalMessage : null}
                 </p>
               }
+              {modalContent.modalAudio ? (
+                <audio controls>
+                  <source src={modalContent.modalAudio} type="audio/mp4" />
+                </audio>
+              ) : null}
               {Array.isArray(modalContent.modalImage) ? (
                 modalContent.modalImage.map((image) => (
                   <img src={image} alt="" />
@@ -139,11 +144,7 @@ export default function Calendar() {
                   <source src={modalContent.modalVideo} type="video/mp4" />
                 </video>
               ) : null}
-              {modalContent.modalAudio ? (
-                <audio controls>
-                  <source src={modalContent.modalAudio} type="audio/mp4" />
-                </audio>
-              ) : null}
+
               {modalContent.modalIframe ? (
                 <div
                   className="modal-iframe"

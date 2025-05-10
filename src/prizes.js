@@ -58,13 +58,13 @@ const prizes = [
     id: 5,
     img: "/images/latte.png",
     isFlipped: false,
-    date: new Date(2024, 4, 10),
-    message: "audio of me leaving him ",
+    date: new Date(2024, 4, 8),
+    message: "The rizz you didn't ask for. Play the audio 🔊",
     includesModal: true,
-    modalMessage:
-      "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me a selfie! Open this on your computer and take a pic with it using your phone. (The mission is not compulsory, but you get 10 extra kisses tonight if you do 😘)",
-    modalImage: "/images/sassycat.jpg",
+    modalMessage: "Aura +1000000 🔥. Just hit play",
+    modalImage: "/images/shrek-smirk.gif",
     signedOff: false,
+    modalAudio: "/images/may10audio.m4a",
   },
   {
     id: 6,
