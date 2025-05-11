@@ -74,7 +74,7 @@ const prizes = [
     message: "Selfie Drop 📸 You got a mission! ",
     includesModal: true,
     modalMessage:
-      "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me a selfie! Open this on your computer and take a pic with it using your phone. The mission is not compulsory, but you get 10 extra kisses tonight if you do 😘 (Choose whichever picture you want)",
+      "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me back a selfie! Open this on your computer and take a pic with it using your phone. (Choose whichever picture you want)",
     modalImage: [
       "/images/halfheart3.jpg",
       "/images/halfheart1.jpg",
@@ -89,6 +89,9 @@ const prizes = [
     date: new Date(2024, 4, 12),
     message: "hello world",
     signedOff: false,
+    includesModal: true,
+    modalMessage:
+      "i hate cooking so much. dinner was so hard. I'm cooking lunch this time instead",
   },
   // {
   //   id: 6,
