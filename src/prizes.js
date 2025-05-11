@@ -74,7 +74,7 @@ const prizes = [
     message: "Selfie Drop 📸 You got a mission! ",
     includesModal: true,
     modalMessage:
-      "Here’s a selfie of me with half a heart 💖 Your mission: Complete the other half and send me back a selfie! Open this on your computer and take a pic with it using your phone. (Choose whichever picture you want)",
+      "Here’s a selfie of me with half a heart 💕 Your mission: Complete the other half and send back a selfie! Open this on your computer and take a pic with it using your phone. (Choose whichever pic you want)",
     modalImage: [
       "/images/halfheart3.jpg",
       "/images/halfheart1.jpg",
