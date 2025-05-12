@@ -74,24 +74,25 @@ const prizes = [
     message: "Selfie Drop 📸 You got a mission! ",
     includesModal: true,
     modalMessage:
-      "Here’s a selfie of me with half a heart 💕 Mission: Complete the other half and send back a selfie! Open this on your computer and take a pic with it using your phone. (Choose whichever pic you want)",
+      "Here’s a selfie of me with half a heart 💕 Mission: Complete the other half and send back a selfie! (Choose whichever pic you want)",
     modalImage: [
       "/images/halfheart3.jpg",
       "/images/halfheart1.jpg",
       "/images/halfheart4.jpg",
     ],
-    signedOff: false,
+    signedOff: true,
+    outcomeImage: "/images/completed-heart.jpg",
   },
   {
     id: 7,
     img: "/images/espresso.png",
     isFlipped: false,
     date: new Date(2024, 4, 12),
-    message: "Get Yourself a Treat Today 🍪",
+    message: "Buy Yourself a Treat Today! 🍪",
     signedOff: false,
     includesModal: true,
     modalMessage:
-      "Just e-transferred you $25! Since you'll be studying all day with your friends, make sure to treat yourself to some drinks and snacks at the café. You got this!",
+      "Just e-transferred you $25! Since you'll be studying all day with your friends, make sure to treat yourself to some drinks and snacks at the café. You got this! 💪🏻",
     modalImage: "/images/money-cash.gif",
   },
   // {
