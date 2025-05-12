@@ -87,11 +87,12 @@ const prizes = [
     img: "/images/espresso.png",
     isFlipped: false,
     date: new Date(2024, 4, 12),
-    message: "hello world",
+    message: "Get Yourself a Treat Today 🍪",
     signedOff: false,
     includesModal: true,
     modalMessage:
-      "i hate cooking so much. dinner was so hard. I'm cooking lunch this time instead",
+      "Just e-transferred you $25! Since you'll be studying all day with your friends, make sure to treat yourself to some drinks and snacks at the café. You got this!",
+    modalImage: "/images/money-cash.gif",
   },
   // {
   //   id: 6,
