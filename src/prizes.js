@@ -92,7 +92,7 @@ const prizes = [
     signedOff: false,
     includesModal: true,
     modalMessage:
-      "Just e-transferred you $25! Since you'll be studying all day with your friends, make sure to treat yourself to some drinks and snacks at the café. You got this! 💪🏻",
+      "Just sent you $25! I know you'll be studying all day with your friends, and even though I can't be there to support you in person, make sure to treat yourself to some snacks and drinks at the café. Enjoy it on my behalf. You got this! 💪🏻",
     modalImage: "/images/money-cash.gif",
   },
   // {
