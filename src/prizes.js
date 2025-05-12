@@ -93,7 +93,7 @@ const prizes = [
     includesModal: true,
     modalMessage:
       "Just sent you $25! I know you'll be studying all day with your friends, and even though I can't be there to support you in person, make sure to treat yourself to some snacks and drinks at the café. Enjoy it on my behalf. You got this! 💪🏻",
-    modalImage: "/images/money-cash.gif",
+    modalImage: "/images/shove-money.gif",
   },
   // {
   //   id: 6,
