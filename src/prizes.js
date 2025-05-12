@@ -88,7 +88,7 @@ const prizes = [
     img: "/images/espresso.png",
     isFlipped: false,
     date: new Date(2024, 4, 12),
-    message: "Treat yourself today! ☕️🍪",
+    message: "Go treat yourself today! ☕️🍪",
     signedOff: false,
     includesModal: true,
     modalMessage:
