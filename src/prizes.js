@@ -89,7 +89,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 12),
     message: "Go treat yourself today! ☕️🍪",
-    signedOff: false,
+    signedOff: true,
     includesModal: true,
     modalMessage:
       "Just sent you $25! I know you'll be studying all day with your friends, and even though I can't be there to support you in person, make sure to treat yourself to some snacks and drinks at the café. Enjoy it on my behalf. You got this! 💪🏻",
@@ -107,8 +107,12 @@ const prizes = [
     img: "/images/black-coffee.png",
     isFlipped: false,
     date: new Date(2024, 4, 13),
-    message: "hello world",
+    includesModal: true,
+    message: "We’re Too Broke to UberEats 💀",
+    modalMessage:
+      "I hate cooking so much, BUT we both know we’re broke AF and can’t keep living off 44 nuggets every time. So I’m making us lunch today before our 5-hour ride to Ottawa. Just focus on studying in my room!",
     signedOff: false,
+    modalImage: "/images/kermit-freakout-closeup.gif",
   },
 
   {
