@@ -120,9 +120,14 @@ const prizes = [
     img: "/images/ice-matcha.png",
     isFlipped: false,
     date: new Date(2024, 4, 14),
-    message: "hello world",
+    message: "Snack Refill 🍫",
     signedOff: false,
+    includesModal: true,
+    modalMessage:
+      "I know we’re low on snacks at home, and you need something to snack on while studying. Snacks are on me today!",
+    modalImage: "/images/cat-eating-chips.gif",
   },
+
   {
     id: 10,
     img: "/images/ice-tea.png",
