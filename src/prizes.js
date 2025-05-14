@@ -125,7 +125,7 @@ const prizes = [
     signedOff: false,
     includesModal: true,
     modalMessage:
-      "I think we're low on snacks at home, you'll need something to snack on while studying over the next few. Let's get you stocked up!",
+      "I think we're low on snacks at home, you'll need something to snack on while studying over the next few days. Let's get you stocked up!",
     modalImage: "/images/cat-eating-chips.gif",
   },
 
