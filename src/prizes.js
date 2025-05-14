@@ -120,7 +120,7 @@ const prizes = [
     img: "/images/ice-matcha.png",
     isFlipped: false,
     date: new Date(2024, 4, 14),
-    message: "Snack Refill!!!!! 🍫",
+    message: "Snack Refill!!! 🍫",
     signedOff: false,
     includesModal: true,
     modalMessage:
