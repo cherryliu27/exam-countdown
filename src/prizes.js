@@ -135,7 +135,7 @@ const prizes = [
     id: 10,
     img: "/images/ice-tea.png",
     isFlipped: false,
-    date: new Date(2024, 4, 14),
+    date: new Date(2024, 4, 15),
     message: "Baby Cherry unlocked 🐥",
     signedOff: false,
     includesModal: true,
