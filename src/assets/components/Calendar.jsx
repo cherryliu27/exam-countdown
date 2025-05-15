@@ -127,6 +127,11 @@ export default function Calendar() {
                   {modalContent.modalMessage ? modalContent.modalMessage : null}
                 </p>
               }
+              {modalContent.outcomeImage && (
+                <p className="receipt-hint">
+                  --- ↓ See receipt at the bottom ↓ ---
+                </p>
+              )}
               {modalContent.modalAudio ? (
                 <audio controls>
                   <source src={modalContent.modalAudio} type="audio/mp4" />

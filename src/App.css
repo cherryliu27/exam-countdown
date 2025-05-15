@@ -503,7 +503,13 @@ main,
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
-  margin-top: 0.6rem;
+  margin-top: 0.3rem;
+}
+
+.modal-content .receipt-hint {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .modal-content img,
