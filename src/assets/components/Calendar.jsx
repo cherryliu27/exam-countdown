@@ -139,12 +139,17 @@ export default function Calendar() {
               ) : modalContent.modalImage ? (
                 <img src={modalContent.modalImage} />
               ) : null}
-              {modalContent.modalVideo ? (
+              {Array.isArray(modalContent.modalVideo) ? (
+                modalContent.modalVideo.map((video) => (
+                  <video width="100%" controls playsInline>
+                    <source src={video} type="video/mp4" />
+                  </video>
+                ))
+              ) : modalContent.modalVideo ? (
                 <video width="100%" controls playsInline>
                   <source src={modalContent.modalVideo} type="video/mp4" />
                 </video>
               ) : null}
-
               {modalContent.modalIframe ? (
                 <div
                   className="modal-iframe"

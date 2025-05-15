@@ -506,7 +506,8 @@ main,
   margin-top: 0.6rem;
 }
 
-.modal-content img {
+.modal-content img,
+.modal-content video {
   width: 100%;
   height: auto;
   margin-bottom: 0.6rem;
