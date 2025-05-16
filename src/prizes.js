@@ -137,7 +137,7 @@ const prizes = [
     isFlipped: false,
     date: new Date(2024, 4, 15),
     message: "Baby Cherry unlocked 🐥",
-    signedOff: false,
+    signedOff: true,
     includesModal: true,
     modalMessage:
       "Sharing some childhood photos of me as a baby. There are also funnier videos, but maybe I’ll show you those another time. And yes as you could tell, I cried a lot, guess I havent changed LOL 😅",
@@ -155,8 +155,12 @@ const prizes = [
     img: "/images/ice-coffee.png",
     isFlipped: false,
     date: new Date(2024, 4, 16),
-    message: "hello world",
+    message: "Free Audio Request 🎙️ I'll say anything",
     signedOff: false,
+    includesModal: true,
+    modalMessage:
+      "You may request one custom audio from me. I’ll record myself saying anything you want! Want me to hype you up? roast you? recite a tongue twister? Say something dumb and stupid? Or set a new good morning alarm? Your pick! (Pls have mercy) 🧎🏻‍♀️",
+    modalImage: "/images/sweating-nervous.gif",
   },
   {
     id: 12,
