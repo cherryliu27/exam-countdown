@@ -167,7 +167,16 @@ const prizes = [
     img: "/images/muffin.png",
     isFlipped: false,
     date: new Date(2024, 4, 17),
-    message: "hello world",
+    message: "From 10 to a 3 real quick 💔",
+    includesModal: true,
+    modalMessage: `Me: She's a 10 but she does aegyo.
+    You: That’s cringe. She's a 3.
+    Me: 🥹`,
+    modalImage: [
+      "/images/aegyo1.gif",
+      "/images/aegyo2.gif",
+      "/images/spongebob.gif",
+    ],
     signedOff: false,
   },
   {

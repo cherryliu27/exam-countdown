@@ -497,6 +497,7 @@ main,
   margin-top: 0.3rem;
   line-height: 1.4rem;
   font-size: 0.97rem;
+  white-space: pre-wrap;
 }
 
 .modal-content .modal-title {
