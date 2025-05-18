@@ -172,11 +172,7 @@ const prizes = [
     modalMessage: `Me: She's a 10 but she does aegyo.
     You: That’s cringe. She's a 3.
     Me: 🥹`,
-    modalImage: [
-      "/images/aegyo1.gif",
-      "/images/aegyo2.gif",
-      "/images/spongebob.gif",
-    ],
+    modalImage: ["/images/aegyo1.gif", "/images/spongebob.gif"],
     signedOff: false,
   },
   {
@@ -184,7 +180,11 @@ const prizes = [
     img: "/images/bagel.png",
     isFlipped: false,
     date: new Date(2024, 4, 18),
-    message: "hello world",
+    message: "New playlist, new vibes! 🚨",
+    modalMessage:
+      "omg how are you not sick of the old playlist yet!? Dont worry I made you a new one with mostly rap, hip-hop and other pop/upbeat tracks. Switch it up if you need something energetic to stay awake.🔥 Feel free to add or edit the playlist (DO NOT CHANGE COVER THO) 💕",
+    includesModal: true,
+    modalIframe: `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4jEQiP0QDEVHUgqezM83dd?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
     signedOff: false,
   },
   {
