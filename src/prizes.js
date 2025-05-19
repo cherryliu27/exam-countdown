@@ -192,8 +192,12 @@ const prizes = [
     img: "/images/strawberry-shortcake.png",
     isFlipped: false,
     date: new Date(2024, 4, 19),
-    message: "hello world",
+    message: "Study Treat from me 📖 🥐 ",
     signedOff: false,
+    includesModal: true,
+    modalMessage:
+      "You’re gonna be at the cafe studying all day, so I’m sponsoring your drinks and snacks. Go get some coffee and a pastry, and think of me while you enjoy them! Remember to accept my $25 e-transfer! You got this!! Just a few more days until freedom. 💪🏻🔥",
+    modalImage: "/images/kermit-food.gif",
   },
   {
     id: 15,
