@@ -221,7 +221,7 @@ const prizes = [
     modalMessage:
       "I hope you like this picture, I really planned it and put a lot of effort into it. So you better accept and love it",
     includesModal: true,
-    modalImage: "/images/hiloser.jpg",
+    modalImage: ["/images/hiloser.jpg", "/images/madonna.gif"],
     signedOff: false,
   },
   {
