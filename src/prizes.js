@@ -217,7 +217,11 @@ const prizes = [
     img: "/images/croissant.png",
     isFlipped: false,
     date: new Date(2024, 4, 21),
-    message: "hello world",
+    message: "Hi Loser 👋🏻",
+    modalMessage:
+      "I hope you like this picture, I really planned it and put a lot of effort into it. So you better accept and love it",
+    includesModal: true,
+    modalImage: "/images/hiloser.jpg",
     signedOff: false,
   },
   {
