@@ -4,10 +4,10 @@ export default function Header() {
   let daysLeft = 0;
 
   if (today.getFullYear() === 2025 && today.getMonth() === 4) {
-    if (today.getDate() < 23) {
-      daysLeft = 23 - today.getDate();
-    } else if (today.getDate() < 25) {
+    if (today.getDate() < 25) {
       daysLeft = 25 - today.getDate();
+    } else if (today.getDate() < 26) {
+      daysLeft = 26 - today.getDate();
     }
   }
 
