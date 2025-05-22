@@ -210,7 +210,8 @@ const prizes = [
     modalImage: "/images/patrick-burgers.gif",
     modalMessage:
       "I'm ordering you dinner tonight!! Tell me what you feel like eating whenever you want to eat~ Think of it as a reward for your hard work. Love you <3",
-    signedOff: false,
+    signedOff: true,
+    outcomeImage: "/images/delivery.jpg",
   },
   {
     id: 16,
@@ -219,7 +220,7 @@ const prizes = [
     date: new Date(2024, 4, 21),
     message: "Hi Loser 👋🏻",
     modalMessage:
-      "I hope you like this picture, I really planned it and put a lot of effort into it. So you better accept and love it",
+      "I hope you like this picture, I really planned and put a lot of effort into it. So you better accept and love it",
     includesModal: true,
     modalImage: ["/images/hiloser.jpg", "/images/madonna.gif"],
     signedOff: false,
@@ -229,7 +230,16 @@ const prizes = [
     img: "/images/puff.png",
     isFlipped: false,
     date: new Date(2024, 4, 22),
-    message: "hello world",
+    message: "Homecooked Meal Coupon 🍽️",
+    modalMessage: `Redeem this the next time you're in Toronto! You can pick one encore dish from stuff I've cooked before, and I'll add some new dishes to make it a full meal. You don't have to decide now! Menu:
+    ~
+    - Coca Cola Chicken Wings
+    - Honey Chicken Wings
+    - Spicy Gochujang Udon
+    - Lemon Panfried Chicken (Pls don't 🥹)
+    - Scallion Oil Noodles`,
+    includesModal: true,
+    modalImage: "/images/homer2.gif",
     signedOff: false,
   },
   {
