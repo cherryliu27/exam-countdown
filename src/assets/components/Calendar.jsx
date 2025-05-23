@@ -151,7 +151,7 @@ export default function Calendar() {
                   </video>
                 ))
               ) : modalContent.modalVideo ? (
-                <video width="100%" controls playsInline>
+                <video width="100%" controls>
                   <source src={modalContent.modalVideo} type="video/mp4" />
                 </video>
               ) : null}
