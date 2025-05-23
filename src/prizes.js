@@ -254,19 +254,16 @@ const prizes = [
     Next time I try to avoid your kisses, you can shout "VETO" and I'll have to let you kiss me as much as you want. (for up to 3 hours) Use wisely, and good luck to me 🙃`,
     signedOff: false,
   },
-  // {
-  //   id: 17,
-  //   img: "/images/red-velvet.png",
-  //   isFlipped: false,
-  //   date: new Date(2024, 4, 23),
-  //   message: "hello world",
-  // },
   {
     id: 19,
     img: "/images/brownie.png",
     isFlipped: false,
-    date: new Date(2024, 4, 24),
-    message: "hello world",
+    includesModal: true,
+    date: new Date(2024, 4, 23),
+    message: "Spitting BARS (Uncensored Ver) 🔥🎤",
+    modalVideo: "/images/eminem.mp4",
+    modalMessage:
+      "Finee, you get to revisit my Rapper Cherry phase. It’s the same video from Hinge, except this one is the original video with no stickers covering my face. I hope this gives you smile or laugh 🫣  If you want a copy, just ask! ",
     signedOff: false,
   },
   {
