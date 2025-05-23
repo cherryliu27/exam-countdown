@@ -259,7 +259,7 @@ const prizes = [
     img: "/images/brownie.png",
     isFlipped: false,
     includesModal: true,
-    date: new Date(2024, 4, 23),
+    date: new Date(2024, 4, 24),
     message: "Spitting BARS (Uncensored Ver) 🔥🎤",
     modalVideo: "/images/eminem.mp4",
     modalMessage:
