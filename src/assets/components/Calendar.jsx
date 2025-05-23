@@ -146,7 +146,7 @@ export default function Calendar() {
               ) : null}
               {Array.isArray(modalContent.modalVideo) ? (
                 modalContent.modalVideo.map((video) => (
-                  <video width="100%" controls playsInline>
+                  <video width="100%" controls>
                     <source src={video} type="video/mp4" />
                   </video>
                 ))
