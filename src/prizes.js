@@ -247,7 +247,11 @@ const prizes = [
     img: "/images/danish.png",
     isFlipped: false,
     date: new Date(2024, 4, 23),
-    message: "hello world",
+    message: "No More Dodging 🚫",
+    includesModal: true,
+    modalImage: "/images/rejectedkiss3.gif",
+    modalMessage: `You now own 2 Kiss Vetos
+    Next time I try to avoid your kisses, you can shout "VETO" and I'll have to let you kiss me as much as you want. (for up to 3 hours) Use wisely, and good luck to me 🙃`,
     signedOff: false,
   },
   // {
